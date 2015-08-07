@@ -1,0 +1,11 @@
+module Haskell where
+
+import Data.List
+
+asd a = (\x xs -> xs ++ [a x])
+
+evens ls = filter even ls
+
+squares n = map (^2) [1..n]
+
+sumSquares n = sum $ squares n
